@@ -20,4 +20,9 @@ for line in file:
 file.close()
 
 # Open the even.txt file for writing and write even numbers to it
+even_file = open("even.txt", "w")
+for number in even_numbers:
+    even_file.write(str(number) + "\n")
+even_file.close()
+
 # Open the odd.txt file for writing and write odd numbers to it
