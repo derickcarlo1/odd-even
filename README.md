@@ -25,8 +25,9 @@ python extract_numbers.py
 # Output
 After running the program, you will find two new files in the same directory: even.txt and odd.txt. These files contain the even and odd numbers extracted from the numbers.txt file.
 
-# About Me
-The Python program I created reads a text file named "numbers.txt" containing 20 integers. It then extracts all the even numbers from the file and saves them in a new text file named "even.txt". Similarly, it extracts all the odd numbers and saves them in a new text file named "odd.txt".
+# About Me and This Program
+I'm Derick Carlo S. Herrera, a Computer Engineering student at the Polytechnic University of the Philippines. The Python program I created reads a text file named "numbers.txt" containing 20 integers. It then extracts all the even numbers from the file and saves them in a new text file named "even.txt". Similarly, it extracts all the odd numbers and saves them in a new text file named "odd.txt".
+
 I created this program to demonstrate my ability to read and write to files in Python, as well as my understanding of basic control structures like loops and if statements. This program can be useful in situations where a user needs to quickly separate even and odd numbers from a large set of data.
 To run this program in Visual Studio Code or any other Python IDE, simply save the code to a Python file with a ".py" extension and run the file. Make sure that the "numbers.txt" file is in the same directory as the Python file. The program will create two new files, "even.txt" and "odd.txt", in the same directory.
 
