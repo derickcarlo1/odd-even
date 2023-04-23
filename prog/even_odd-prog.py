@@ -26,3 +26,7 @@ for number in even_numbers:
 even_file.close()
 
 # Open the odd.txt file for writing and write odd numbers to it
+odd_file = open("odd.txt", "w")
+for number in odd_numbers:
+    odd_file.write(str(number) + "\n")
+odd_file.close()
