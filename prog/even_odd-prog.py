@@ -1,5 +1,11 @@
-# Open the numbers.txt file (reading)
-# Create two empty lists for even & odd numbers
+# Open the numbers.txt file for reading
+file = open("numbers.txt", "r")
+
+# Create two empty lists for even and odd numbers
+even_numbers = []
+odd_numbers = []
+
+
 # Loop through each line in the file
 # Convert the line to an integer
 # Check if the number is even or odd and add it to the proper list
